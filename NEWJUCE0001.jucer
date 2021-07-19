@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="UbWjng" name="NEWJUCE0001" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginManufacturer="JensRotter" pluginCharacteristicsValue="pluginIsMidiEffectPlugin,pluginProducesMidiOut,pluginWantsMidiIn">
   <MAINGROUP id="bO4zy3" name="NEWJUCE0001">
     <GROUP id="{9F28FC68-1577-CD71-1EFA-1FE296C575F6}" name="Source">
       <FILE id="DsDwSp" name="PluginProcessor.cpp" compile="1" resource="0"
