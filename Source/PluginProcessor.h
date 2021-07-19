@@ -9,7 +9,7 @@
 #pragma once
 
 #include <JuceHeader.h>
-
+#include "MIDIProcessor.h"
 //==============================================================================
 /**
 */
@@ -54,6 +54,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+    MIDIProcessor midiProcessor;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (NEWJUCE0001AudioProcessor)
 };
