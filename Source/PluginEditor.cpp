@@ -33,7 +33,7 @@ void NEWJUCE0001AudioProcessorEditor::paint (juce::Graphics& g)
     g.setGradientFill(juce::ColourGradient::vertical(juce::Colours::green, juce::Colours::darkgreen, juce::Rectangle<int>(0,0,100,100)));
     g.fillRect(0.0f, 0.0f, 100.0f, 100.0f);
     g.setFillType(juce::FillType(juce::Colours::white));
-    g.fillRect(0.0f, 0.0f, 100.0f, 3.0f);
+    g.fillRect(0.0f, 0.0f, 100.0f, 3.0f); 
     
     
     /*g.setFont (15.0f);
