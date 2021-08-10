@@ -16,6 +16,10 @@ class MIDIProcessor
 public:
     void MIDIProcessor::processBlock(int samples, juce::MidiBuffer &midiMessages)
     {
-
+        juce::MidiBufferIterator midiIterator;
+        for (const juce::MidiMessageMetadata metadata : midiMessages)
+            if (metadata.numBytes == 3)
+                DBG(metadata.getMessage().getDescription());
+        
     }
 };
